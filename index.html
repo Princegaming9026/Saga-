@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuHelp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="intro">
+        <h1 class="intro-text">www.buhelp.wuaze.com</h1>
+    </div>
+    <header>
+        <div class="logo">BUHELP</div>
+        <nav>
+            <ul>
+                <li><a href="#" class="home-btn">Home</a></li>
+                <li><a href="#about" class="about-btn">About Us</a></li>
+                <li><a href="#contact" class="contact-btn">Contact Us</a></li>
+                <li class="menu">
+                    <div class="hamburger">☰</div>
+                    <ul class="dropdown">
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms & Conditions</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main-content">
+        <div class="hero-box">
+            <h2>"BuHelp: Connecting You with the Support You Need"</h2>
+            <p>"Discover personalized advice and resources tailored just for you."</p>
+            <button class="more-btn">More</button>
+            <div class="more-info">
+                <p>"At BuHelp, we understand that everyone faces unique challenges. Our mission is to connect you with expert guidance, practical solutions, and a supportive community. Whether you're looking for advice, resources, or a place to share your experiences, we are here to help you every step of the way."</p>
+            </div>
+        </div>
+        <div class="sections">
+            <button class="section-btn">Admission</button>
+            <button class="section-btn">Result</button>
+            <button class="section-btn">Enrolment or BAR Registration/Registered Student Login</button>
+            <button class="section-btn">Student Login, NSS, Library</button>
+            <button class="section-btn">Examination</button>
+            <button class="section-btn">Latest news and Announcement</button>
+        </div>
+        
+        <div class="section-content" id="admission">
+            <h3>Admission Information</h3>
+            <div class="content-box">
+                <ul>
+                    <li><a href="#">Undergraduate Admission</a></li>
+                    <li><a href="#">Postgraduate Admission</a></li>
+                    <li><a href="#">Ph.D. Programs</a></li>
+                    <li><a href="#">Admission Guidelines</a></li>
+                    <li><a href="#">Fee Structure</a></li>
+                    <li><a href="#">Important Dates</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section-content" id="result">
+            <h3>Results</h3>
+            <div class="content-box">
+                <form class="result-form">
+                    <select name="examType">
+                        <option value="">Select Exam Type</option>
+                        <option value="semester">Semester Examination</option>
+                        <option value="entrance">Entrance Test</option>
+                    </select>
+                    <input type="text" placeholder="Enter Roll Number">
+                    <button type="submit">View Result</button>
+                </form>
+            </div>
+        </div>
+        <div class="section-content" id="enrolment">
+            <h3>Enrolment & Registration</h3>
+            <div class="content-box">
+                <div class="login-section">
+                    <h4>Student Login</h4>
+                    <form class="login-form">
+                        <input type="text" placeholder="Registration Number">
+                        <input type="password" placeholder="Password">
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+                <div class="registration-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">New Registration</a></li>
+                        <li><a href="#">BAR Registration Guide</a></li>
+                        <li><a href="#">Forgot Password</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section-content" id="student-login">
+            <h3>Student Services</h3>
+            <div class="content-box">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h4>Library Portal</h4>
+                        <a href="#" class="service-btn">Access Library</a>
+                    </div>
+                    <div class="service-card">
+                        <h4>NSS Portal</h4>
+                        <a href="#" class="service-btn">NSS Activities</a>
+                    </div>
+                    <div class="service-card">
+                        <h4>Student Dashboard</h4>
+                        <a href="#" class="service-btn">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content" id="examination">
+            <h3>Examination Portal</h3>
+            <div class="content-box">
+                <ul>
+                    <li><a href="#">Exam Schedule</a></li>
+                    <li><a href="#">Hall Tickets</a></li>
+                    <li><a href="#">Past Question Papers</a></li>
+                    <li><a href="#">Exam Guidelines</a></li>
+                    <li><a href="#">Results</a></li>
+                    <li><a href="#">Revaluation</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section-content" id="news">
+            <h3>Latest News & Announcements</h3>
+            <div class="content-box">
+                <div class="news-ticker">
+                    <ul>
+                        <li class="news-item">
+                            <span class="date">02 Mar 2025</span>
+                            <p>Upcoming Semester Registration Deadline Extended</p>
+                        </li>
+                        <li class="news-item">
+                            <span class="date">01 Mar 2025</span>
+                            <p>New Research Grants Announced for Postgraduate Students</p>
+                        </li>
+                        <li class="news-item">
+                            <span class="date">28 Feb 2025</span>
+                            <p>Campus Placement Drive Schedule Released</p>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="view-all-btn">View All Announcements</a>
+            </div>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
